@@ -56,7 +56,7 @@ public class Main {
         float amountSpentAverage = 0;
         for (int i = 0; i < arr.length; i++) {
             amountSpentAverage = (amountSpentAverage + arr[i]);}
-        System.out.println(amountSpentAverage / arr.length);
+        System.out.println("Средняя сумма трат за месяц составила " + amountSpentAverage / arr.length + " рублей.");
 
     }
 
