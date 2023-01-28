@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         task1();
         task2();
-        //task3();
+        task3();
         //task4();
         //task5();
         //task6();
@@ -49,4 +49,17 @@ public class Main {
         }
         System.out.println("Минимальная сумма трат за день составила " + minSpentDay + " рублей. Максимальная сумма трат за день составила " + maxSpentDay + " рублей.");
     }
-}
+    public static void task3() {
+        System.out.println("Задача 3");
+        int[] arr = generateRandomArray(); // объявление массива и вызов метода сгенерироватьМассив
+        //System.out.println(Arrays.toString(arr)); //проверка сгенерированного массива
+        float amountSpentAverage = 0;
+        for (int i = 0; i < arr.length; i++) {
+            amountSpentAverage = (amountSpentAverage + arr[i]);}
+        System.out.println(amountSpentAverage / arr.length);
+
+    }
+
+    }
+
+
