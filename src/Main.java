@@ -36,7 +36,7 @@ public class Main {
     public static void task2() {
         System.out.println("Задача 2");
         int[] arr = generateRandomArray(); // объявление массива и вызов метода сгенерироватьМассив
-        System.out.println(Arrays.toString(arr)); //проверка сгенерированного массива
+        //System.out.println(Arrays.toString(arr)); //проверка сгенерированного массива
         int maxSpentDay = 0;
         int minSpentDay = 1_000_000;
         for (int i = 0; i < arr.length; i++) {
